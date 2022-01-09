@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(89, 192, 192);
+            
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        
+        nav {
+            background-color: rgb(65, 138, 138);
+            padding: 5px;
+            box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.377); 
+            
+            
+            /* Uma maneira mais fácil de criar o box shadow é indo no dev tools do google, inspecionando o nav aperta nos três pontinnhos e "add box shadow", arruma como quer a sombra e dps copia o código*/
+        }
+
+        nav > a{
+            color: white;
+            font-weight: bold;
+        }
+        
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: rgb(97, 231, 231);
+            padding: 5px;
+        }
+
+        article > aside {
+            text-align: center;
+            background-color: rgb(65, 138, 138);
+        }
+        main {
+            background-color: rgb(89, 192, 192);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.336);
+        }
+
+        footer {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- CABEÇALHO -->
+        <H1>Meu site</H1>
+        <nav> <!-- MENU DE NAVEGAÇÃO -->
+            <a href="#">Clique para ir no link</a>
+        
+        </nav>
+    </header>
+    <main> <!-- PRINCIPAL -->
+        <section id="assuntos">
+            
+        </section> 
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas perspiciatis cumque tempora rem perferendis provident corrupti soluta! Dolores quos voluptatibus debitis est iste ad voluptatem inventore ullam dolor adipisci?</p>
+                <aside>
+                    <p>Artigo escrito por Eduarda</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer> <!-- RODAPÉ -->
+        <p>Desenvolvimento pelo CursoemVídeo</p>
+    </footer>
+    
+</body>
+</html>

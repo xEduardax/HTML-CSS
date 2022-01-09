@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id = em CSS é #
+    Em HTMl é class = em CSS é .
+    id é unico e class pode ser usado mais de uma vez.
+*/
+
+body {
+    background-color:  #F2E1C2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1a6274;
+}
+
+h1#principal {             /*Aqui está usando o id colocado lá no primeiro h1*/
+    text-align: center;
+    background-color: #F26241;
+    color: white;
+}
+
+
+.basico {    /*Aqui está usando a class colocada lá no "h2 HTML Básico"*/
+    color: #00706C;
+
+    
+}
+
+.intermediario {
+    color: #dfaf4f;
+}
+
+.avancado {
+    color: #91464c;
+}
+
+p {
+    color: rgb(44, 43, 43);
+}
+

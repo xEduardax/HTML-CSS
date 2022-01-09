@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height:180px;
+    margin:auto;
+    background-color:#ff0000;
+    font-family:Arial;
+    color:#fff;
+}
+
+.align-item {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width:600px;
+    height:180px;
+    margin:auto;
+    background-color:rebeccapurple;
+    font-family:Arial;
+    color:#fff;
+    margin: 5px;
+}

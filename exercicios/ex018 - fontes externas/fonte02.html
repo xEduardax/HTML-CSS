@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css.ico" type="image/x-icon">
+    
+    <title>Fontes Externas</title>
+    <style>
+       
+       /*Fonte do site datafont.com, precisa baixar a fonte, colocar na mesma pasta fonts do html e implementar conforme abaixo*/
+       @font-face {
+            font-family:'Old London';
+            src: url('fonts/OldLondon.otf') format('opentype'), url('fonts/OldLondon.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typograph)
+        - svg
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Old London', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa dolorem harum aut labore ex ipsum consequatur. Fuga qui consequuntur fugiat, rem aut cum optio quis, at deserunt magni consectetur illo.</p>
+</body>
+</html>

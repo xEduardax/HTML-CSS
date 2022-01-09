@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: #2A9D8E;
+    text-shadow: 1px 1px 1px #2a9d8e88;
+}
+
+h2 {
+    color: #2A9D8E;
+    text-shadow: 1px 1px 1px #2a9d8e88
+}
+
+p {
+    text-align: justify;
+}
