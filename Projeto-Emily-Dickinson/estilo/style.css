@@ -78,6 +78,7 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.623);
     text-shadow: 1px 1px 0px black;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 section#img01 {
